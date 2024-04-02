@@ -21,5 +21,6 @@ function jourTravaille(currentDate) {
     }
 }
 
-const currentDate = new Date(prompt('Entrez une date comme suit : MM JJ AAAA'));
-const todayIsHoliday = jourTravaille(currentDate);
+const currentDate = new Date(prompt('Entrez une date comme suit : MM JJ AAAA'))
+
+jourTravaille(currentDate)
