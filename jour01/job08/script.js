@@ -20,7 +20,7 @@ function sommeNombresPremiers(num1, num2) {
     }
 
     if (flag1 == true && flag2 == true)
-        console.log(sum)
+        console.log(num1, "+", num2, "=", sum)
 }
 
 sommeNombresPremiers(prompt("Entrez un premier nombre :"), prompt("Entrez un deuxième nombre :"))
